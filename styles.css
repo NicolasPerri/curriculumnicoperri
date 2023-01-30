@@ -1,0 +1,170 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /*font-size: 100%;*/
+    vertical-align: baseline;
+    font-family:'Times New Roman';
+}
+li{
+    text-decoration: none;
+   list-style-type: none;
+   font-size: 18px;
+}
+.content {
+    padding: 20px;
+    background: rgba(255, 255, 255,30%);
+    text-align: center;
+    border: #3f3f3f 5px solid;
+    border-radius: 10px;
+    margin: 6px;
+    box-shadow: 0 0 8px black;
+}
+.content:hover{
+    transform: scale(1.2);
+    padding: 20px;
+    background-color: rgba(255, 255, 255,70%);
+    translate: 50px 10px;
+}
+
+#experiencia:hover{
+    translate: -100px 100px;
+}
+#experiencia{display:none;
+}
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    background-image:url("paisaje.jpg");
+    background-size: cover;
+}
+
+p{
+    font-family: Georgia;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 20px rgba(17, 17, 17, 0.2);
+    justify-content: left;
+    border-radius: 10%;
+    margin-top: 15px;
+    
+}
+.head {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    height: 57px;
+    background: #171717;
+    /*position: sticky;*/
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+table{
+    width: 60%;
+    max-width: 680px;
+    margin:auto;
+    font-family: sans-serif;
+    border: #3f3f3f 5px solid;
+    margin-top: 20px;
+
+}
+.dentroP{
+    width: 60%;
+    align-content: center;
+    
+}
+td{
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+.navbar a:hover {
+    background: #3f3f3f;
+}
+.tip1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("paisaje.jpg");
+    background-size: cover;
+    padding: 40px;
+}
+.foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: #171717 2px solid;
+    background-color: #171717 ;
+    background-image: url("https://lh3.googleusercontent.com/a/AEdFTp4tU9nV4cbY5B9Z_oHRjcBU-JxG8cB2cKdNuESisA=s288-p-rw-no");
+    background-size: cover;
+
+}
+
+#acerca, #edu-id, #datos-id {
+    display:none;
+}
+.tic{
+    color: black;
+    text-shadow:0 0 5px white;
+    text-transform: uppercase;
+    font-family: Georgia;
+    
+}
+.title{
+    font-family:'Georgia'
+}
+.cv {
+    color: white;
+    text-shadow:0 0 5px black;
+    text-transform: capitalize;
+    font-family: Georgia;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.general{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-content: space-around;
+   
+   
+}
+.derecho{
+    width: auto;
+    display: flex;
+    height: auto;
+    padding: 10px;
+    flex-direction: column;
+}
+.izquierda{
+    width: 45%;
+    display: flex;
+    height: auto;
+    padding: 10px;
+    flex-direction: column;
+}
+
+
+
+
